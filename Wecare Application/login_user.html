@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login User</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="./css/h-style.css">
+</head>
+<body>
+    <header>
+        <nav>
+                <a href="home.html"><img src="./images/WhiteLogo.png" width="80" height=" 50" alt="logo"></a>
+            <div>
+
+                <a href="contact­_us.html">Contact Us</a></li>
+            </div>
+            <hr/>
+        </nav>
+    </header>
+        <main>
+            <section>
+                <div class="log-div">
+                    
+                    <img src="/images/user.jpg" width="50" height="50" alt="home">
+                        <h2>Login As User</h2>
+                <form method="post" action="user_home.html">
+                    <label class="lab" for="name">Username</label>
+                    <input class="box" id="name" type="text" placeholder="Enter Username" required disabled>
+                    <br/>
+                    <br/>
+                    <label class="lab" for="pass">Password</label>
+                    <input class="box" id="pass" type="password"  value="Enter Password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,10}">
+                    <br/>
+                    <br/>
+                    <Button class="btn" type="submit">Login</Button>
+                </form>
+                </div>
+            </section>
+            <hr />
+            <footer>
+                <h3>&copy;WeCare 2023-2024. All rights reserved.</h3>
+        
+            </footer>
+</body>
+</html>

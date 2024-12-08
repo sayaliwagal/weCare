@@ -1,0 +1,292 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.btn {
+    background-color: #e37608;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #e37608;
+    border-radius: 5px;
+}
+
+.btn-div {
+    text-align: center;
+}
+
+/* Style for header  */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    height: auto;
+    background-color: rgb(61, 160, 240);
+}
+
+nav {
+
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    top: 10px;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 5px solid #fff;
+    border-radius: 5px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+/* Style for user-home  */
+
+.t-div {
+    margin: 0px 5px;
+    padding: 10px;
+
+}
+
+table caption h2 {
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+
+table td img {
+    display: block;
+    border-radius: 50%;
+}
+
+/* Style for user-profile  */
+.p-sec {
+    display: flex;
+    width: 550px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-div {
+    border: 1px solid rgba(43, 40, 40, 0.797);
+    margin: 20px 10px;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div {
+    display: block;
+    margin: 40px 10px;
+}
+
+.img-div img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.table-div {
+    border: none;
+}
+
+.table-div td,
+th {
+    padding: 10px;
+}
+
+/* Style for My Appointment  */
+.my-app {
+    margin: 50px 10px;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.my-app img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.my-app h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Style for schedule */
+.s-div {
+    margin: 50px 140px;
+    text-align: center;
+    left: 500px;
+    padding: 20px 20px;
+    background-color: rgba(184, 176, 176, 0.797);
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-div img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.s-div form {
+    text-align: left;
+}
+
+.lab {
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.date {
+    display: inline-block;
+    padding: 2px 100px;
+    margin: 5px;
+}
+
+input[type=radio] {
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+    margin: 2px;
+}
+
+/* Style for schedule success  */
+
+.s-sec {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.s-success h3 {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.s-success a {
+    text-decoration: none;
+}
+
+.s-success img {
+    display: block;
+    align-items: center;
+}
+
+/* Style for Feedback */
+
+.f-sec {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 15px;
+    padding: 20px;
+
+}
+
+.f-div {
+    border: 2px dotted rgba(52, 42, 42, 0.797);
+    padding: 10px 80px;
+    margin: 8px 20px;
+    bottom: 10px;
+}
+
+.f-div h2 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.d-form div label {
+    float: left;
+    padding: 5px;
+}
+
+.d-form span {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Style for Contact -us  */
+
+.c-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.c-para {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.iframe {
+    display: block;
+    width: 800px;
+    margin: 30px 20px;
+}
+
+/* Style for footer  */
+footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    /* position: sticky ; */
+    padding: 10px 0px;
+    background-color: rgb(61, 160, 240);
+    overflow: hidden;
+}
+
+hr {
+    border-color: rgb(14, 128, 221);
+    width: 100%;
+}
+
+footer h3 {
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
